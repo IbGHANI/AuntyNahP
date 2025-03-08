@@ -2,3 +2,10 @@
     margin: 0;
     padding: 0;
 }
+/* the header style starts here */
+.Menu{
+    width: 100%;
+    padding: 15px;
+    background-color: brown;
+}
+/* the header style ends here*/
