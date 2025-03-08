@@ -2,10 +2,73 @@
     margin: 0;
     padding: 0;
 }
+
+
+/* html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+} */
+
+
+
+:root{
+    --dark: #000;
+    --darkgreen: rgb(9, 77, 9);
+    --black: #333;
+    --gray: #f9f9f9;
+    --darkgray: #676767;
+    --lightblack: #444;
+    --white: #fff;
+    --color: bisque;
+    --green: #2bb573;
+    --lightgreen: #5ed39b;
+    --ldgreen: #ecfff6;
+    --fbg: #0c0b09;
+    --fontfamily: "Kumbh Sans", sans-serif;
+    --fontsize: 18px;
+    --fontrems: 2rem;
+    --fontsmallrem: 1.2rem;
+    --fontsmallsize: 13px;
+    --letterspacing: 1.5px;
+    --texttranform: capitalize;
+    --transition: 0.5s;
+}
+
+
+
 /* the header style starts here */
 .Menu{
+    display: flex;
     width: 100%;
-    padding: 15px;
-    background-color: brown;
+    padding: 1% 2%;
+    background-color: var(--gray);
+}
+.Menu > .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+}
+.Menu > .logo > h3{
+    font-family: var(--fontfamily);
+    font-size: var(--fontsize);
+    letter-spacing: var(--letterspacing);
+    text-transform: capitalize;
+    transition: 02s;
+} 
+
+
+.Menu > .headers{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+    padding: ;
+}
+
+.Menu > .headers > ul{
+    display: flex;
 }
 /* the header style ends here*/
